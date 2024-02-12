@@ -1,0 +1,156 @@
+/* ============|Global|============ */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap')
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: radial-gradient(darkred, black);
+}
+
+/* ____________|MENU|____________ */
+
+#main-menu {
+    width: 100%;
+    height: 3%;
+    background: linear-gradient(
+     rgb(17, 1, 1) 0.5em,
+     darkred,
+     red);
+    max-width: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main-menu__item {
+    display: inline-block; 
+    margin-left: 10%;
+}
+
+.main-menu__link {
+    text-decoration: none;
+    color: whitesmoke;
+    -webkit-text-stroke: 0.022em black;
+    font-size: 1.2em;
+    
+}
+
+
+/* ____________|HEADER|____________ */
+
+#container-header-img {
+    position: relative;
+}
+
+#header-img-banner,
+#header-img-logo {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    margin: 0px;
+}
+
+#header-img-banner {
+    height: 20em;
+    width: 100%;
+    
+}
+
+#header-img-logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 15em;
+    width: auto;
+}
+
+#header-text {
+    
+    font-size: 2em;
+    text-align: center;
+    background: linear-gradient(to left, black, darkred, black);
+    outline: 0.1em solid black;
+    border-radius: 1.5em;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* ____________|BENTO|____________ */
+
+ .main-bento {
+    background-color: rgb(8,8,8);
+    max-width: 90%;
+    margin: 10px auto;
+    padding-left: 3%;
+    padding-right: 3%;
+    outline: 0.3em solid whitesmoke;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-bento {
+display: flex;
+margin-bottom: 2em;
+}
+
+.bento-img {
+    max-width: 100%;
+    min-width: 10em;
+}
+
+.bento-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.main-bento .bento-text__title{
+    font-size: 1.5em;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: "Dosis", sans-serif;
+}
+
+.bento-text__p {
+    color: antiquewhite;
+    font-family: "Oswald", sans-serif;
+}
+
+/* ============|Landing Page|============ */
+
+.landing-text__banner {
+    font-size: 28px;
+    background: linear-gradient(to left, rgb(8,8,8), darkred, rgb(8,8,8));
+    color: antiquewhite;
+    -webkit-text-stroke: 0.6px black;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+
+}
+#bento-text__l {
+    text-align: left;
+}
+
+#bento-text__r {
+    text-align: right;
+}
+
+.landing-bento-main {
+    display: flex;
+    
+}
+
+#landing-bento__miniright {
+    width: 45em;
+    max-height: 30em;
+    
+}
+
+#landing-bento__minileft {
+    width: 20em;
+}
